@@ -421,7 +421,7 @@ section.main {
 }
 .project-card .info a {
   text-decoration: none;
-  color: var(--main-text);
+  color: #fff;
   font-weight: bold;
   transition: var(--main-transition);
 }
