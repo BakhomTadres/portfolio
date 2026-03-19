@@ -151,9 +151,9 @@ section.main {
     display: none;
     flex-direction: column;
     position: absolute;
-    right: 0;
+    right: -10px;
     top: 100%;
-    width: calc(100%);
+    width: calc(100% + 40px);
     transition: var(--main-transition);
   }
   nav.navbar a {
