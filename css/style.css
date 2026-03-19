@@ -219,6 +219,17 @@ section.main {
   .project-btn {
     font-size: 15px !important;
     padding: 10px 15px !important;
+    margin-right: -10px;
+  }
+  .projects {
+    padding: 100px 20px !important;
+  }
+  .projects .project-card .info h3 {
+    font-size: 1.1em !important;
+    margin-left: -10px;
+  }
+  .project-card p {
+    margin-left: -10px !important;
   }
   footer {
     flex-direction: column;
@@ -352,13 +363,13 @@ section.main {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .content .card {
-  padding: 20px;
-  border-radius: 7px;
+  padding: 20px 20px 40px 20px;
+  border-radius: 10px;
   box-shadow: 0px 0px 15px -3px var(--secondry-text);
   transition: var(--main-transition);
   background-color: var(--card-bg);
 }
-.content .card:hover,
+.contact .content .card:hover,
 #services .content .card:hover {
   transform: scale(1.1);
 }
@@ -380,7 +391,7 @@ section.main {
 .card h3 {
   color: var(--primary-color);
   font-size: 1.8em;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .card p {
   font-size: 1.2em;
@@ -425,7 +436,7 @@ section.main {
 .project-card p {
   line-height: 1.6;
   color: var(--secondry-text);
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 .project-card .info {
   display: flex;
@@ -435,6 +446,7 @@ section.main {
 }
 .project-card .info h3 {
   font-size: 1.2em;
+  letter-spacing: 1.5px;
 }
 .project-card .info a {
   text-decoration: none;
