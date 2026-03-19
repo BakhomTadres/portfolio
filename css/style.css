@@ -230,6 +230,10 @@ section.main {
   }
   .project-card p {
     margin-left: -10px !important;
+    height: fit-content !important;
+  }
+  .project-card .technologies {
+    margin-left: -10px !important;
   }
   footer {
     flex-direction: column;
@@ -438,6 +442,24 @@ section.main {
   line-height: 1.6;
   color: var(--secondry-text);
   margin: 10px 0;
+  height: 45px;
+}
+.project-card .technologies {
+  margin: 10px 0;
+}
+.project-card .technologies span {
+  border: 1px solid var(--secondry-text);
+  border-radius: 25px;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+  transition: var(--main-transition);
+  margin-right: 5px;
+}
+.project-card .technologies span:hover {
+  background-color: var(--main-bg);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 .project-card .info {
   display: flex;
